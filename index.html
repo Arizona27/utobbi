@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NoteS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.rtl.min.css" integrity="sha384-OXTEbYDqaX2ZY/BOaZV/yFGChYHtrXH2nyXJ372n2Y8abBhrqacCEe+3qhSHtLjy" crossorigin="anonymous">
+    <link rel="stylesheet" href="/na ez a vege/index.css">
+    <link rel="shortcut icon" href="/favicon1.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/5eb2c51ffb.js" crossorigin="anonymous"></script>
+    <script type="text/JavaScript" src="/na ez a vege/index.js" async=""></script>
+
+</head>
+<body>
+    
+
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <span class="text-muted">
+
+                <div id="list-example" class="list-group">
+                  <a class="list-group-item list-group-item-action" href="#list-item-1">Órarend</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-2">Naptár</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-3">Jegyzetek</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-4">Játék</a>
+
+                </div>
+        </span>
+        </div>
+      </div>
+      
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <header>
+            <h2>NoteS</h2>
+        </header>
+
+        </div>
+      </nav>
+
+
+    <div class="items" id="list-group-item-1">Órarend:</div>
+    <p class="table">
+        <table>
+            <style>
+                table, th, td {
+            border: 2px solid;
+            margin-left: auto; margin-right: auto;
+            border-radius: 2px;
+            text-align: center;
+            }
+            </style>
+           <thead>
+                <tr>
+                  <th>Hétfő</th>
+                  <th>Kedd</th>
+                  <th>Szerda</th>
+                  <th>Csütörtök</th>
+                  <th>Péntek   </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Angol</td>
+                    <td>Kémia em.</td>
+                    <td>Történelem</td>
+                    <td>-</td>
+                    <td>Biosz em.</td>
+                </tr>
+                <tr>
+                    <td>Matek</td>
+                    <td>Kémia em.</td>
+                    <td>Tesi</td>
+                    <td>-</td>
+                    <td>Biosz em.</td>
+                </tr>
+                <tr>
+                    <td>Tesi</td>
+                    <td>Tesi</td>
+                    <td>Német</td>
+                    <td>Irodalom</td>
+                    <td>Tesi</td>
+                </tr>
+                <tr>
+                    <td>Irodalom</td>
+                    <td>Matek</td>
+                    <td>Nyelvtan</td>
+                    <td>Irodalom</td>
+                    <td>Matek</td>
+                </tr>
+                <tr>
+                    <td>Történelem</td>
+                    <td>Infó</td>
+                    <td>Angol</td>
+                    <td>Angol</td>
+                    <td>Történelem</td>
+                </tr>
+                <tr>
+                    <td>Német</td>
+                    <td>Angol</td>
+                    <td>Infó</td>
+                    <td>Német</td>
+                    <td>Média ism.</td>
+                </tr>
+                <tr>
+                    <td>Osztályfőnöki</td>
+                    <td>Tesi</td>
+                    <td>Angol</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Média ism.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </p>
+    <div class="items" id="list-item-2">Naptár:</div>
+    <div class="contianer">
+      <div class="calendar">
+        <div class="calendar-header">
+          <span class="month-picker" id="month-picker"> May </span>
+          <div class="year-picker" id="year-picker">
+            <span class="year-change" id="pre-year">
+              <pre><</pre>
+            </span>
+            <span id="year">2020 </span>
+            <span class="year-change" id="next-year">
+              <pre>></pre>
+            </span>
+          </div>
+        </div>
+ 
+        <div class="calendar-body">
+          <div class="calendar-week-days">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+          </div>
+          <div class="calendar-days">
+          </div>
+        </div>
+        <div class="calendar-footer">
+        </div>
+        <div class="date-time-formate">
+          <div class="day-text-formate">TODAY</div>
+          <div class="date-time-value">
+            <div class="time-formate">02:51:20</div>
+            <div class="date-formate">23 - july - 2022</div>
+          </div>
+        </div>
+        <div class="month-list"></div>
+      </div>
+    </div>
+    <div class="items" id="list-item-3">Jegyzetek:</div>
+    <p>
+      <div class="popup-box">
+        <div class="popup">
+            <div class="content">
+                <header>
+                    <p>Adj hozzá jegyzetet</p>
+                    <i class="fa-solid fa-xmark"></i>
+                </header>
+                <form action="#">
+                    <div class="row title">
+                        <label for="">Szöveg</label>
+                        </button><input type="text" name="" id="">
+                    </div>
+                    <div class="row description">
+                        <label for="">Alszöveg</label>
+                        <textarea></textarea>
+                    </div>
+                    <button>Adj hozzá jegyzetet</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <li class="add-box">
+            <div class="icon"><i class="fa-solid fa-plus"></i></div>
+            <p>Adj hozzá új jegyzetet</p>
+        </li>
+    </div>
+    </p>
+    </div>
+ </div>
+ <div class="items" id="list-item-4">Játék:</div>
+    <p>
+
+      <iframe class="game" style="max-width:100%" src="https://wordwall.net/hu/embed/238bc2a971224c0483e6085b73daa0f3?themeId=2&templateId=72&fontStackId=0"  width="500" height="380" frameborder="0" allowfullscreen></iframe>
+
+    </p>
+ 
+<script type="text/JavaScript" src="/na ez a vege/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</body>
+</html>
